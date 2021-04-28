@@ -56,4 +56,8 @@ dcur.execute("INSERT INTO info (maxzoom, minzoom) SELECT max(z),min(z) from tile
 dest.commit()
 source.close()
 dest.close()
+#  ./mbtiles2osmand.py  badajoz_norte.mbtiles  badajoz_norte.sqlitedb
+
+
+
 
